@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16pt"
+        android:layout_margin="@dimen/margin_check_box"
+        android:layout_gravity="center"
+        android:text="Комбинации цветов"
+        android:id="@+id/tw"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16pt"
+        android:layout_margin="@dimen/margin_check_box"
+        android:width="200dp"
+        android:id="@+id/cbRed"
+        android:text="Красный"
+        android:layout_gravity="center"
+        android:onClick="Click"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:textSize="16pt"
+        android:layout_margin="@dimen/margin_check_box"
+        android:id="@+id/cbYellow"
+        android:text="Желтый"
+        android:layout_gravity="center"
+        android:onClick="Click"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:textSize="16pt"
+        android:id="@+id/cbBlue"
+        android:layout_margin="@dimen/margin_check_box"
+        android:text="Синий"
+        android:layout_gravity="center"
+        android:onClick="Click"/>
+
+
+</LinearLayout>
